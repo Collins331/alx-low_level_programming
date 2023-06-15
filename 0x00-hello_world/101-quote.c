@@ -3,7 +3,8 @@
 /**
 *main - Entry point prints "and that piece of art is usefull"
 *			Dora Korpar, 2015-10-19
-*Return : Always  0(Success)
+*
+*Return: Always 0 (Success)
 */
 
 int main(void)
