@@ -1,6 +1,8 @@
 #include <stdio.h>
-/*
-*How to us puts statement
+/**
+*main - Entry point
+*
+*Return: Always 0 (Success)
 */
 int main(void)
 {
