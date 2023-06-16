@@ -1,27 +1,51 @@
 #include <stdio.h>
+
 /**
-*main - Entry point
-*
-*Return: Always 0 (Success)
-*/
+ * main - Entry point
+ *
+ * Return: ALways 0 (Success)
+ */
+
 int main(void)
+
 {
-	int coll, lins;
 
-	for (coll = 0 ; coll <= 9 ; coll++)
+	int c, l;
+
+
+
+	for (c = 48; c <= 56; c++)
+
 	{
-		for (lins = coll + 1 ; lins <= 9 ; lins++)
-		{
-			putchar(coll + '0');
-			putchar(lins + '0');
 
-			if (coll != 9 || lins != 8)
+		for (l = 49; l <= 57; l++)
+
+		{
+
+			if (l > c)
+
 			{
-				putchar(',');
-				putchar(' ');
+
+				putchar(c);
+
+				putchar(l);
+
+				if (c != 56 || c != 57)
+
+				{
+
+					putchar(',');
+
+					putchar(' ');
+
+				}
+
 			}
+
 		}
+
 	}
+
 	putchar('\n');
 
 	return (0);
