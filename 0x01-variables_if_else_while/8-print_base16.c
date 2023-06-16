@@ -17,9 +17,9 @@ int main(void)
 		{
 			putchar(colly - 10 + 'a');
 		}
-		{
-			putchar('\n');
-		}
+	}
+	{
+		putchar('\n');
 	}
 	return (0);
 }
