@@ -12,11 +12,11 @@ int main(void)
 
 	int c;
 
-	for (c = 48; n < 58; n++)
+	for (c = 48; c < 58; c++)
 
 	{
 
-		putchar(n);
+		putchar(c);
 
 	if (c != 57)
 

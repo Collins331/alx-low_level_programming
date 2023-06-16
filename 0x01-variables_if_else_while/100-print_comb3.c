@@ -8,9 +8,9 @@ int main(void)
 {
 	int coll, lins;
 
-	for (coll = 0 ; coll < 10 ; coll++)
+	for (coll = 0 ; coll <= 9 ; coll++)
 	{
-		for (lins = 0 ; lins < 10 ; lins++)
+		for (lins = coll + 1 ; lins <= 9 ; lins++)
 		{
 			putchar(coll + '0');
 			putchar(lins + '0');
