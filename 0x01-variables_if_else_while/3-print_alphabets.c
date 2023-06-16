@@ -12,7 +12,7 @@ int main(void)
 	{
 		putchar(Collins);
 	}
-	for (Collins = 'A' ; Collins <= 'A' ; Collins++)
+	for (Collins = 'A' ; Collins <= 'Z' ; Collins++)
 	{
 		putchar(Collins);
 	}
