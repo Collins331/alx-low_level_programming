@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Return: ALways 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -30,7 +30,7 @@ int main(void)
 
 				putchar(l);
 
-				if (c != 56 || c != 57)
+				if (c != 56 || l != 57)
 
 				{
 
