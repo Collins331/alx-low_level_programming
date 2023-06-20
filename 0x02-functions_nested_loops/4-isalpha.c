@@ -1,14 +1,14 @@
 #include "main.h"
 /**
-*_islower - entry point
+*_isalpha - entry point
 *
-*@c: char type letter
+*@c: char type
 *
 *Return: always 1 (success)
 */
-int _islower(int c)
+int _isalpha(int c)
 {
-	if (c >= 97 && c <= 122)
+	if ((c > 64 && c < 91) || (c > 96 && c < 123))
 	{
 		return (1);
 	}
