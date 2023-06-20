@@ -6,8 +6,7 @@
 *
 *Return: Always 1 (success)
 */
-int _putchar(char l)
+int _putchar(char c)
 {
-	write(1, &l, 1);
-	return (1);
+	return(write(1, &c, 1));
 }
