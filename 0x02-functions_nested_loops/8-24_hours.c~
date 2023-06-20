@@ -1,0 +1,8 @@
+#include "main.h"
+/**
+*jack_bauer - entry point
+*
+*Return: always 0 (success)
+*/
+void jack_bauer(void)
+{
