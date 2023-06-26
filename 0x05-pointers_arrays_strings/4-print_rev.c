@@ -1,19 +1,17 @@
 #include "main.h"
 /**
-*print_rev - entry point
-*@s: the char type to print
-*/
+ * print_rev - print a string in reverse
+ * @s: char array string type
+ */
 void print_rev(char *s)
 {
-	int length;
+	int i;
 
-	for (length = 0; s[length] != '\0'; length++)/* calculate length of the string*/
-	
+	for (i = 0; s[i] != '\0'; i++)
+		;
 
-	for (length--; length >= 0; length--)/* prints string in reverse order*/
-	
-		_putchar(s[length]);
-	
+	for (i--; i >= 0; i--)
+		_putchar(s[i]);
+
 	_putchar('\n');
-	
 }
