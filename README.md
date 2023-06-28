@@ -5,3 +5,4 @@
 - [X] [Functions and nested loops.](0x02-functions_nested_loops)
 - [X] [Debugging skills](0x03-debugging)
 - [X] [More functions & nested loop projects](0x04-more_functions_nested_loops)
+- [X] [Pointers, arrays and string](0x05-pointers_arrays_strings)
