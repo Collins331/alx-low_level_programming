@@ -1,10 +1,10 @@
-#include  "main.h"
+#include "main.h"
 
 /**
- *set_string - The Function that prints a value.
- *@s: char type param
- *@to: char type param
- *Return: 0 if (successful).
+ * set_string - sets the value of a pointer to a char
+ * @s: content is to be copied
+ * @to: string
+ * Return: void
  */
 
 void set_string(char **s, char *to)
