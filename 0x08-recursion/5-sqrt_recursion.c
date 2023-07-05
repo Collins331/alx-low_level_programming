@@ -19,10 +19,10 @@ int _sqrt_recursion(int n)
   *@end: the end of a number
   *Return: always integer
   */
-int _sqrt(int n, int start, int end)
+unsigned int _sqrt(int n, int start, int end)
 {
-	int mid;
-	int square;
+	unsigned int mid;
+	unsigned int square;
 
 	if (start > end)
 	{
