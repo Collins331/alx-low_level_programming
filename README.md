@@ -8,3 +8,4 @@
 - [X] [Pointers, arrays and string](0x05-pointers_arrays_strings)
 - [X] [More Pointers, arrays and strings](0x06-pointers_arrays_strings)
 - [X] [Even more pointers, arrays and strings](0x07-pointers_arrays_strings)
+- [X] [Recursion](0x08-recursion)
