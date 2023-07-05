@@ -12,7 +12,13 @@ int _sqrt_recursion(int n)
 	}
 	return (_sqrt(n, 0, n));
 }
-
+/**
+  *_sqrt - function that provides square root
+  *@n: a number given
+  *@start: the beginning half of a number
+  *@end: the end of a number
+  *Return: always integer
+  */
 int _sqrt(int n, int start, int end)
 {
 	int mid;
@@ -31,7 +37,7 @@ int _sqrt(int n, int start, int end)
 	}
 	if (square > n)
 	{
-		return (_sqrt(n, start, mid -1));
+		return (_sqrt(n, start, mid - 1));
 	}
 	return (_sqrt(n, mid + 1, end));
 }
