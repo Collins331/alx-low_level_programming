@@ -6,38 +6,31 @@
   */
 int _sqrt_recursion(int n)
 {
-	if (n == 0 || n == 1)
-	{
-		return (n);
-	}
-	return (_sqrt(n, 0, n));
+	int sqrt_fun(int n, int sq);
+
+	int sq = 1;
+
+	return (sqrt_fun(n, sq));
 }
 /**
-  *_sqrt - function that provides square root
-  *@n: a number given
-  *@start: the beginning half of a number
-  *@end: the end of a number
-  *Return: always integer
-  */
-unsigned int _sqrt(int n, int start, int end)
-{
-	unsigned int mid;
-	unsigned int square;
+ * sqrt_fun - helper function to solve _sqrt_recursion
+ * @sq: number to determine if square root
+ * @n:  int number
+ * Return: square root if natural square root, or -1 if none found
+ */
 
-	if (start > end)
+int sqrt_fun(int n, int sq)
+{
+	if (n == sq * sq)
+	{
+		return (sq);
+	}
+	else if (sq < n)
+	{
+		return (sqrt_fun(n, ++sq));
+	}
+	else
 	{
 		return (-1);
 	}
-	mid = (start + end) / 2;
-	square = mid * mid;
-
-	if (square == n)
-	{
-		return (mid);
-	}
-	if (square > n)
-	{
-		return (_sqrt(n, start, mid - 1));
-	}
-	return (_sqrt(n, mid + 1, end));
 }
