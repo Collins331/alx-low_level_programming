@@ -5,6 +5,7 @@
 #include <unistd.h>
 #include <math.h>
 
+int _sqrt(int n, int start, int end);
 int _putchar(char c);
 void _puts_recursion(char *s);
 void _print_rev_recursion(char *s);
