@@ -10,3 +10,4 @@
 - [X] [Even more pointers, arrays and strings](0x07-pointers_arrays_strings)
 - [X] [Recursion](0x08-recursion)
 - [X] [Static Libraries](0x09-static_libraries)
+- [X] [Argc & Argv](0x0A-argc_argv)
