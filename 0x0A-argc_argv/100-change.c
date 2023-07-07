@@ -1,5 +1,9 @@
 #include "main.h"
-
+/**
+  *calculateCoins - determines the change to return
+  *@cents: the amount for change
+  *Return: always integer (success)
+  */
 int calculateCoins(int cents)
 {
 	int coins[4], numCoins, count, i;
@@ -30,7 +34,7 @@ int calculateCoins(int cents)
   *Return: always 0(success)
   */
 int main(int argc, char *argv[])
-{	
+{
 	int cents;
 	int minCoins;
 
