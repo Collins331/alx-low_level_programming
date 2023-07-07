@@ -9,3 +9,4 @@
 - [X] [More Pointers, arrays and strings](0x06-pointers_arrays_strings)
 - [X] [Even more pointers, arrays and strings](0x07-pointers_arrays_strings)
 - [X] [Recursion](0x08-recursion)
+- [X] [Static Libraries](0x09-static_libraries)
