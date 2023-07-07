@@ -1,42 +1,16 @@
-#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+
 /**
-  *calculateCoins - determines the change to return
-  *@cents: the amount for change
-  *Return: always integer (success)
-  */
-int calculateCoins(int cents)
-{
-	int coins[4], numCoins, count, i;
+ *main - The main block.
+ *@argc : count the number of arguments.
+ *@argv: points to an array.
+ *Return:always 0.
+ */
 
-	if (cents < 0)
-	{
-		return (0);
-	}
-	coins[0] = 25;
-	coins[1] = 10;
-	coins[2] = 5;
-	coins[3] = 1;
-	numCoins = sizeof(coins) / sizeof(coins[0]);
-	count = 0;
-
-		for (i = 0; i < numCoins; i++)
-		{
-			count += cents / coins[i];
-			cents %= coins[i];
-		}
-		return (count);
-
-}
-/**
-  *main - entry point
-  *@argc: counts the number of arguments passed
-  *@argv: are the arguments passed
-  *Return: always 0(success)
-  */
 int main(int argc, char *argv[])
 {
-	int cents;
-	int minCoins;
+	int cents, coins = 0;
 
 	if (argc != 2)
 	{
@@ -45,9 +19,34 @@ int main(int argc, char *argv[])
 	}
 
 	cents = atoi(argv[1]);
-	minCoins = calculateCoins(cents);
 
-	printf("%d\n", minCoins);
+	while (cents > 0)
+	{
+		coins++;
+		if ((cents - 25) >= 0)
+		{
+			cents -= 25;
+			continue;
+		}
+		if ((cents - 10) >= 0)
+		{
+			cents -= 10;
+			continue;
+		}
+		if ((cents - 5) >= 0)
+		{
+			cents -= 5;
+			continue;
+		}
+		if ((cents - 2) >= 0)
+		{
+			cents -= 2;
+			continue;
+		}
+		cents--;
+	}
+
+	printf("%d\n", coins);
 
 	return (0);
 }
