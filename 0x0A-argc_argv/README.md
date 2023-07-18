@@ -1,4 +1,4 @@
-# AGRC && AGRV
+# AGRC & AGRV
 
 - [x] [0-whatsmyname.c](0-whatsmyname.c)
 - [x] [1-args.c](1-args.c)
