@@ -4,10 +4,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
+#include <string.h>
 
 /**
  * struct op - Struct op
- *
  * @op: The operator
  * @f: The function associated
  */
