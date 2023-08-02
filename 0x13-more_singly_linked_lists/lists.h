@@ -5,6 +5,17 @@
 #include<stdlib.h>
 #include<unistd.h>
 #include<string.h>
+/**
+ * struct listp_s - singly linked list.
+ * @p: pointers of nodes of the linked list.
+ * @next: points to the next node in the list.
+ * Description: singly linked list of pointers
+ */
+typedef struct listp_s
+{
+	void *p;
+	struct listp_s *next;
+} listp_t;
 
 /**
  * struct listint_s - singly linked list
