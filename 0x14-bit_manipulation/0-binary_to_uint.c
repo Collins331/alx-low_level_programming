@@ -8,6 +8,11 @@ unsigned int binary_to_uint(const char *b)
 {
 	unsigned int num = 0, base = 0;
 
+	if (b == NULL)
+	{
+		return (0);
+	}
+
 	while (b[base] != '\0')
 	{
 		if (b[base] != '1' && b[base] != '0')
