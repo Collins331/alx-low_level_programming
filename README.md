@@ -17,3 +17,7 @@
 - [X] [Structures & typedef](0x0E-structures_typedef)
 - [X] [Functions & Pointers](0x0F-function_pointers)
 - [X] [Variadic functions](0x10-variadic_functions)
+- [x] [0x12-singly_linked_lists](0x12-singly_linked_lists)
+- [x] [0x13-more_singly_linked_lists](0x13-more_singly_linked_lists)
+- [x] [0x14-bit_manipulation](0x14-bit_manipulation)
+- [x] [0x15-file_io](0x15-file_io)
