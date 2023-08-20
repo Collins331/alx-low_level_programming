@@ -10,3 +10,6 @@
 - [x] [7-print_tebahpla.c](7-print_tebahpla.c)
 - [x] [8-print_base16.c](8-print_base16.c)
 - [x] [9-print_comb.c](9-print_comb.c)
+- [x] [100-print_comb3.c](100-print_comb3.c)
+- [x] [101-print_comb4.c](101-print_comb4.c)
+- [x] [102-print_comb5.c](102-print_comb5.c)
