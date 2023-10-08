@@ -25,3 +25,5 @@
 - [x] [0x16-Simple Shell](https://github.com/Collins331/simple_shell) - _Team project_
 - [x] [0x17-doubly_linked_lists](0x17-doubly_linked_lists)
 - [x] [0x18-dynamic_libraries](0x18-dynamic_libraries)
+- [x] [monty](https://github.com/Collins331/monty) - _Personal project_
+- [x] [0x1A-hash_tables](0x1A-hash_tables)
